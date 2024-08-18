@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Login Page Styles */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #2980b9;
+}
+
+/* Main Page Styles */
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background: #e74c3c;
+    color: #fff;
+}
+
+.about, .menu, .testimonial, .contact, .why-choose-us, .recent-updates {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 5px solid #3498db;
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+.reason {
+    margin: 10px 0;
+}
